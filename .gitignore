@@ -1,0 +1,127 @@
+# Large data files
+*.dcm
+*.nii
+*.nii.gz
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Training data
+train.csv
+train_localizers.csv
+test.csv
+
+# Segmentation data
+segmentations/
+
+# DICOM series data
+series/
+kaggle_evaluation/series/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.ckpt
+*.safetensors
+*.bin
+
+# Logs and outputs
+logs/
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+tensorboard/
+
+# Cache
+.cache/
+*.cache
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Data processing
+*.parquet
+*.feather
+*.arrow
+
+# Large CSV files (but keep small config CSVs)
+data/*.csv
+processed_data/
+
+# Images (except documentation)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+!docs/*.png
+!docs/*.jpg
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+Thumbs.db
+.Spotlight-V100
+.Trashes
