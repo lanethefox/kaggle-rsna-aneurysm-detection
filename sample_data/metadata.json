@@ -1,0 +1,16 @@
+{
+  "description": "Sample dataset for RSNA Intracranial Aneurysm Detection",
+  "num_train_series": 3,
+  "num_test_series": 2,
+  "num_segmentations": 2,
+  "train_series_copied": [],
+  "modalities": {
+    "CTA": 2,
+    "MRI T2": 1
+  },
+  "aneurysm_present_ratio": {
+    "positive": 1,
+    "negative": 2
+  },
+  "random_seed": 42
+}

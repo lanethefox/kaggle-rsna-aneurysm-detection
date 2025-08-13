@@ -1,0 +1,4 @@
+SeriesInstanceUID,PatientAge,PatientSex,Modality,Left Infraclinoid Internal Carotid Artery,Right Infraclinoid Internal Carotid Artery,Left Supraclinoid Internal Carotid Artery,Right Supraclinoid Internal Carotid Artery,Left Middle Cerebral Artery,Right Middle Cerebral Artery,Anterior Communicating Artery,Left Anterior Cerebral Artery,Right Anterior Cerebral Artery,Left Posterior Communicating Artery,Right Posterior Communicating Artery,Basilar Tip,Other Posterior Circulation,Aneurysm Present
+1.2.826.0.1.3680043.8.498.44759787826643682749003517202115793631,69,Male,CTA,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+1.2.826.0.1.3680043.8.498.80626791078656090117474341660839005217,72,Male,CTA,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1.2.826.0.1.3680043.8.498.12226585482374681834802509793591206300,19,Female,MRI T2,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -8,17 +8,23 @@
 *.7z
 *.rar
 
-# Training data
-train.csv
-train_localizers.csv
-test.csv
+# Training data (but keep sample data)
+/train.csv
+/train_localizers.csv
+/test.csv
+!sample_data/train.csv
+!sample_data/train_localizers.csv
+!sample_data/test.csv
 
-# Segmentation data
-segmentations/
+# Segmentation data (but keep sample data)
+/segmentations/
+!sample_data/segmentations/
 
-# DICOM series data
-series/
-kaggle_evaluation/series/
+# DICOM series data (but keep sample data)
+/series/
+/kaggle_evaluation/series/
+!sample_data/test/
+!sample_data/train/
 
 # Python
 __pycache__/
